@@ -1,0 +1,35 @@
+Problem Statement:
+- You are given an array prices where prices[i] is the price of a given stock on the ith day.
+- You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+- Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+Algorithm:
+Step- 1:
+    Get input from user (prices)
+
+Step- 2:
+    Declare a variable for profit and set value to 0.
+
+Step- 3:
+    Declare a variable for least price and set value as the day 1 price
+
+Step- 4:
+    Iterate the values in the prices as current till end.
+    Go to Step- 5
+
+    After iterating all values in prices.
+    Go to Step- 7
+
+Step- 5:
+    Check whether the iterated value is minimum than the least.
+    If True, then set the value for least as the value of current and go to Step- 6
+    If False, then go to Step- 6
+
+Step- 6:
+    Find the maximum price among the existing profit and the difference between the current and the least.
+    And set value of profit to the found maximum price.
+    Go to Step- 4
+
+Step- 7:
+    Print the Profit.
+    # This will be the maximum profit that the seller can sell.
