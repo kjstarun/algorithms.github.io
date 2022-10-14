@@ -1,0 +1,9 @@
+- Get a string
+ - "malayalam".
+- Create a new empty string.
+ - ""
+- Iterate the string using for loop in reverse order.
+ - concatenate the iterated value with the new string.
+- Check whether the input string and the new string are equal.
+ - If true, then it is a palindrome.
+ - If false, then it is not a palindrome.
