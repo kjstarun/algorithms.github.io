@@ -1,0 +1,30 @@
+
+Problem Statement:
+There are 3 doors A, B and C.  A has "HELLO", B has "TARUN", C has "HELLO TARUN".
+When a person comes and say 
+A number divisible by 3, then the Door A should open and say "HELLO".
+A number divisible by 5, then the Door B should open and say "TARUN".
+A number divisible by 3 and 5, then the Door C should open and say "HELLO TARUN".
+
+Algorithm:
+Step- 1:
+	Get input from user.
+Step - 2:
+	Check whether the input is divisible by both 3 and 5
+	If True, Say "HELLO TARUN" and termniate.
+	If False, Go to Step- 3
+Step- 3:
+	Check whether the input is divisible by 3
+	If True, Say "HELLO" and termniate.
+	If False, Go to Step- 4
+Step- 4:
+	Check whether the input is divisible by 5
+	If True, Say "TARUN" and termniate.
+	If False, Go to Step- 5
+Step- 5:
+	Say "INVALID INPUT" and termniate.
+	
+
+
+	
+	

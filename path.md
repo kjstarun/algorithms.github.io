@@ -1,0 +1,8 @@
+- Get an object
+- Get a path
+- Create a function to find values
+- Pass the object and path to the function.
+- Inside function, split the path as from string to keys.
+- Now, check for the keys in the object
+- If it exists, return the value of the key,
+- If not exist, return undefined.

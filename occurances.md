@@ -1,0 +1,11 @@
+- Get an string
+- Check whether the input is valid or not
+- If not valid then, throw a message as invalid input
+- If valid, proceed with further steps below
+- Create a new string and store it as a lowercase of the input string
+- Create a object
+- Iterate the new string and 
+- Check if the object has the iterated item
+- If true update the count
+- If false assign a new key and set value as 1
+- Return the object after the loop

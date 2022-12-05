@@ -1,0 +1,6 @@
+- Get an array
+- Create a new array
+- Assign the new array with a map method
+- Write a function in method
+- The function is if the item is divisible by 2 then, multiply it by 2 and push it new array.
+- If not, then push the item as same.
